@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Liberation+Sans:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-open-sans: "Open Sans";
+  --font-inter: Inter;
+  --font-liberation-sans: "Liberation Sans";
+
+  /* font sizes */
+  --font-size-mid: 1.06rem;
+  --font-size-3xs-8: 0.61rem;
+  --font-size-smi: 0.81rem;
+  --font-size-xs: 0.75rem;
+  --font-size-base: 1rem;
+  --font-size-smi-3: 0.77rem;
+  --font-size-sm: 0.88rem;
+  --font-size-2xs: 0.69rem;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-gray-100: #212529;
+  --color-mediumslateblue: #7258db;
+  --color-whitesmoke: #f0f0f0;
+  --color-gold: #ffc107;
+  --color-seagreen: #198754;
+  --color-darkgray: #9a9b9d;
+  --color-dimgray: #555;
+  --color-darkslategray-100: #055160;
+  --color-darkslategray-200: #0f5132;
+  --color-saddlebrown: #664d03;
+  --color-brown: #842029;
+
+  /* Gaps */
+  --gap-13xl-2: 2.01rem;
+  --gap-base: 1rem;
+
+  /* Paddings */
+  --padding-base: 1rem;
+  --padding-mid: 1.06rem;
+  --padding-9xs-4: 0.21rem;
+  --padding-6xs-3: 0.39rem;
+  --padding-9xs-1: 0.19rem;
+  --padding-7xs-4: 0.34rem;
+  --padding-9xs-2: 0.2rem;
+  --padding-12xs: 0.06rem;
+  --padding-5xs: 0.5rem;
+  --padding-0: 0rem;
+  --padding-sm-3: 0.83rem;
+  --padding-68xl-9: 5.49rem;
+  --padding-smi-8: 0.8rem;
+  --padding-60xl-9: 4.99rem;
+  --padding-sm-8: 0.86rem;
+  --padding-base-7: 1.04rem;
+  --padding-13xl: 2rem;
+  --padding-7xs: 0.38rem;
+  --padding-xs: 0.75rem;
+  --padding-12xs-3: 0.02rem;
+
+  /* border radiuses */
+  --br-9xs: 4px;
+  --br-8xs-8: 4.8px;
+}
