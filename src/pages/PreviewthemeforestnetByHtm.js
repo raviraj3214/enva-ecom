@@ -21,24 +21,7 @@ const PreviewthemeforestnetByHtm = () => {
   
     fetchProducts();
   
-    const calculateMaxWidth = () => {
-      const table = document.querySelector('.table');
-      const cells = table.querySelectorAll('th, td');
-      let maxWidth = 0;
-  
-      cells.forEach((cell) => {
-        const width = cell.clientWidth;
-        maxWidth = Math.max(maxWidth, width);
-      });
-  
-      cells.forEach((cell) => {
-        cell.style.width = maxWidth + 'px';
-      });
-    };
-  
-    calculateMaxWidth();
-    window.addEventListener('resize', calculateMaxWidth);
-    return () => window.removeEventListener('resize', calculateMaxWidth);
+    
   }, []);
   
 
@@ -66,13 +49,13 @@ const PreviewthemeforestnetByHtm = () => {
     </header>
     <div className="container-fluid row home-page">
 
-      <div className=" ">
+    <div style={{ display: "flex", flexDirection: "column", minHeight: "100vh" }}>
       <div className="col-8">
       </div>
       <div className="iframe">
         <div className="body">
           <div className="divebazar-layout">
-            <div className="divmain">
+            <div className="ml-4">
               <div className="nav">
                 <div className="divinput-group">
                   <div className="input">
@@ -571,7 +554,7 @@ const PreviewthemeforestnetByHtm = () => {
                                 alt=""
                                 src="/svgjsg1381.svg"
                               />
-                              <div className="svgjsg1382">
+                              <div className="svgjsg1382 ">
                                 <div className="svgjsg1385">
                                   <b className="svgjstext1062">1131</b>
                                 </div>
